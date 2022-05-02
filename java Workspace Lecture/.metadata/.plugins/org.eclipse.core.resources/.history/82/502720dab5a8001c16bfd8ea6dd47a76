@@ -1,0 +1,12 @@
+package test;
+
+public class T1 {
+ void t1() {
+	 System.out.println("T1 t1");
+ }
+}
+
+
+public class Ex4 extends T1{
+	
+}

@@ -1,0 +1,19 @@
+package test;
+
+class T1 {
+	void t1() {
+		System.out.println("T1 t1");
+	}
+}
+
+public class Ex4 extends T1 {
+
+	void t1() {
+		System.out.println("ex4 ~t1");
+	}
+
+	public static void main(String args[]) {
+		T1 t = new Ex4();
+		t.t1();
+	}
+}
